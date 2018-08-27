@@ -1,0 +1,118 @@
+{
+  "id" : "core",
+  "om_scope_core" : {
+    "type" : "object",
+    "additionalProperties" : true,
+    "id" : "om_scope_core",
+    "title" : null,
+    "scope" : "core",
+    "properties" : {
+      "id" : {
+        "ismasked" : false,
+        "entity_name" : null,
+        "precision" : "0",
+        "length" : "20",
+        "orderby" : null,
+        "issearchable" : false,
+        "issecured" : false,
+        "label" : "id",
+        "type" : "integer",
+        "keyorder" : "0",
+        "isconfigurablemodified" : false,
+        "attribute_name" : "id",
+        "attribute_scope" : "core",
+        "config_scope" : "core",
+        "id" : "om_attribute_core_application_id",
+        "isdupcheck" : false,
+        "key" : false
+      },
+      "TestEntity" : {
+        "type" : "object",
+        "additionalProperties" : true,
+        "id" : "om_entity_core_TestEntity",
+        "title" : "TestEntity",
+        "scope" : "core",
+        "properties" : {
+          "id" : {
+            "ismasked" : false,
+            "entity_name" : "TestEntity",
+            "precision" : "0",
+            "length" : "20",
+            "orderby" : null,
+            "issearchable" : false,
+            "issecured" : false,
+            "label" : "id",
+            "type" : "integer",
+            "keyorder" : "0",
+            "isconfigurablemodified" : false,
+            "attribute_name" : "id",
+            "attribute_scope" : "core",
+            "config_scope" : "core",
+            "id" : "om_attribute_core_TestEntity_id",
+            "isdupcheck" : false,
+            "key" : false
+          }
+        },
+        "lobname" : "core"
+      },
+      "Test123" : {
+        "ismasked" : false,
+        "entity_name" : null,
+        "precision" : "0",
+        "length" : "50",
+        "orderby" : "ascending",
+        "issearchable" : false,
+        "issecured" : false,
+        "label" : "Test123",
+        "type" : "string",
+        "keyorder" : "0",
+        "isconfigurablemodified" : false,
+        "attribute_name" : "Test123",
+        "attribute_scope" : "core",
+        "config_scope" : "core",
+        "id" : "om_attribute_core_application_Test123",
+        "isdupcheck" : false,
+        "key" : false
+      },
+      "test" : {
+        "entity_name" : null,
+        "label" : null,
+        "type" : "countrylist",
+        "attribute_name" : "test",
+        "attribute_scope" : "core",
+        "config_scope" : "core",
+        "id" : "test"
+      },
+      "TestEntity2" : {
+        "type" : "object",
+        "additionalProperties" : true,
+        "id" : "om_entity_core_TestEntity2",
+        "title" : "TestEntity2",
+        "scope" : "core",
+        "properties" : {
+          "id" : {
+            "ismasked" : false,
+            "entity_name" : "TestEntity2",
+            "precision" : "0",
+            "length" : "20",
+            "orderby" : null,
+            "issearchable" : false,
+            "issecured" : false,
+            "label" : "id",
+            "type" : "integer",
+            "keyorder" : "0",
+            "isconfigurablemodified" : false,
+            "attribute_name" : "id",
+            "attribute_scope" : "core",
+            "config_scope" : "core",
+            "id" : "om_attribute_core_TestEntity2_id",
+            "isdupcheck" : false,
+            "key" : false
+          }
+        },
+        "lobname" : "core"
+      }
+    },
+    "lobname" : "core"
+  }
+}

@@ -1,0 +1,7 @@
+{
+  "url" : "banking",
+  "packageName" : "com.basicsanity.banking2",
+  "serviceId" : "banking2",
+  "defaultSchemaName" : "banking",
+  "type" : ""
+}

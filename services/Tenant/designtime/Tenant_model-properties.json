@@ -1,0 +1,7 @@
+{
+  "url" : "",
+  "packageName" : "com.basicsanity.tenant",
+  "serviceId" : "Tenant",
+  "defaultSchemaName" : "Tenant",
+  "type" : "tenant"
+}

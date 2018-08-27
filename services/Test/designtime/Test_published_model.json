@@ -1,0 +1,124 @@
+{
+  "name" : "core",
+  "draft" : false,
+  "models" : {
+    "core" : {
+      "root" : "om_scope_core",
+      "draft" : false,
+      "entities" : {
+        "om_scope_core" : {
+          "id" : "om_scope_core",
+          "name" : null,
+          "scope" : "core",
+          "additionalProperties" : false,
+          "attributes" : {
+            "id" : {
+              "type" : "PRIMITIVE",
+              "id" : "om_attribute_core_application_id",
+              "javaType" : "integer",
+              "precision" : 0,
+              "length" : 20,
+              "listType" : false,
+              "keyOrder" : 0,
+              "name" : "id",
+              "key" : false,
+              "label" : "id",
+              "orderBy" : null,
+              "configScope" : "core",
+              "scope" : "core",
+              "configurations" : { }
+            },
+            "TestEntity" : {
+              "type" : "ENTITY",
+              "ref" : "om_entity_core_TestEntity",
+              "scope" : "core",
+              "label" : null,
+              "name" : "TestEntity",
+              "listType" : true
+            },
+            "Test123" : {
+              "type" : "PRIMITIVE",
+              "id" : "om_attribute_core_application_Test123",
+              "javaType" : "string",
+              "precision" : 0,
+              "length" : 50,
+              "listType" : false,
+              "keyOrder" : 0,
+              "name" : "Test123",
+              "key" : false,
+              "label" : "Test123",
+              "orderBy" : "ascending",
+              "configScope" : "core",
+              "scope" : "core",
+              "configurations" : { }
+            },
+            "test" : {
+              "type" : "LOOKUP",
+              "ref" : "countrylist",
+              "scope" : "core",
+              "label" : null,
+              "name" : "test",
+              "listType" : false
+            },
+            "TestEntity2" : {
+              "type" : "ENTITY",
+              "ref" : "om_entity_core_TestEntity2",
+              "scope" : "core",
+              "label" : null,
+              "name" : "TestEntity2",
+              "listType" : false
+            }
+          }
+        },
+        "om_entity_core_TestEntity" : {
+          "id" : "om_entity_core_TestEntity",
+          "name" : "TestEntity",
+          "scope" : "core",
+          "additionalProperties" : false,
+          "attributes" : {
+            "id" : {
+              "type" : "PRIMITIVE",
+              "id" : "om_attribute_core_TestEntity_id",
+              "javaType" : "integer",
+              "precision" : 0,
+              "length" : 20,
+              "listType" : false,
+              "keyOrder" : 0,
+              "name" : "id",
+              "key" : false,
+              "label" : "id",
+              "orderBy" : null,
+              "configScope" : "core",
+              "scope" : "core",
+              "configurations" : { }
+            }
+          }
+        },
+        "om_entity_core_TestEntity2" : {
+          "id" : "om_entity_core_TestEntity2",
+          "name" : "TestEntity2",
+          "scope" : "core",
+          "additionalProperties" : false,
+          "attributes" : {
+            "id" : {
+              "type" : "PRIMITIVE",
+              "id" : "om_attribute_core_TestEntity2_id",
+              "javaType" : "integer",
+              "precision" : 0,
+              "length" : 20,
+              "listType" : false,
+              "keyOrder" : 0,
+              "name" : "id",
+              "key" : false,
+              "label" : "id",
+              "orderBy" : null,
+              "configScope" : "core",
+              "scope" : "core",
+              "configurations" : { }
+            }
+          }
+        }
+      }
+    }
+  }
+}

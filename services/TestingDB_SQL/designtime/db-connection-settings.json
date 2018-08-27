@@ -1,0 +1,220 @@
+{
+  "username" : "sa",
+  "password" : "7b6a43524a353f3a664c733d4e537670477c612a43",
+  "url" : "jdbc:sqlserver://52.12.227.219:1433;databaseName=TestingDB_SQL",
+  "driverClass" : "com.microsoft.sqlserver.jdbc.SQLServerDriver",
+  "dialect" : "com.wavemaker.runtime.data.dialect.WMSQLServerDialect",
+  "serviceId" : "TestingDB_SQL",
+  "packageName" : "com.basicsanity.testingdb_sql",
+  "dbType" : "SQLServer",
+  "host" : "52.12.227.219",
+  "dbName" : "TestingDB_SQL",
+  "port" : "1433",
+  "schemaName" : "dbo",
+  "tableFilter" : [ {
+    "table" : "All types",
+    "schema" : "dbo"
+  }, {
+    "table" : "All Types Default Values",
+    "schema" : "dbo"
+  }, {
+    "table" : "All Types Default Values2",
+    "schema" : "dbo"
+  }, {
+    "table" : "All Types Table",
+    "schema" : "dbo"
+  }, {
+    "table" : "Composite O2M child",
+    "schema" : "dbo"
+  }, {
+    "table" : "Composite O2M parent",
+    "schema" : "dbo"
+  }, {
+    "table" : "Composite One To Many Child",
+    "schema" : "dbo"
+  }, {
+    "table" : "Composite One To Many Parent",
+    "schema" : "dbo"
+  }, {
+    "table" : "Composite One to One child",
+    "schema" : "dbo"
+  }, {
+    "table" : "Composite One To One Parent",
+    "schema" : "dbo"
+  }, {
+    "table" : "Composite OTO child",
+    "schema" : "dbo"
+  }, {
+    "table" : "Composite OTO Parent",
+    "schema" : "dbo"
+  }, {
+    "table" : "Composite PK to Non PK Child",
+    "schema" : "dbo"
+  }, {
+    "table" : "Composite PK to One Non Pk Parent",
+    "schema" : "dbo"
+  }, {
+    "table" : "Department",
+    "schema" : "dbo"
+  }, {
+    "table" : "Employee",
+    "schema" : "dbo"
+  }, {
+    "table" : "Joining Details",
+    "schema" : "dbo"
+  }, {
+    "table" : "ManyToOne Child",
+    "schema" : "dbo"
+  }, {
+    "table" : "ManyToOne Parent",
+    "schema" : "dbo"
+  }, {
+    "table" : "OneToMany Child",
+    "schema" : "dbo"
+  }, {
+    "table" : "OneToMany Parent",
+    "schema" : "dbo"
+  }, {
+    "table" : "One To One Child",
+    "schema" : "dbo"
+  }, {
+    "table" : "OneToOne Child",
+    "schema" : "dbo"
+  }, {
+    "table" : "One to One Parent",
+    "schema" : "dbo"
+  }, {
+    "table" : "OneToOne Parent",
+    "schema" : "dbo"
+  }, {
+    "table" : "OneToOne UC",
+    "schema" : "dbo"
+  }, {
+    "table" : "OneToOne UC NotNull",
+    "schema" : "dbo"
+  }, {
+    "table" : "OneToOne UP",
+    "schema" : "dbo"
+  }, {
+    "table" : "OneToOne UP NotNull",
+    "schema" : "dbo"
+  }, {
+    "table" : "Only Virtual Table",
+    "schema" : "dbo"
+  }, {
+    "table" : "Orders",
+    "schema" : "dbo"
+  }, {
+    "table" : "Project",
+    "schema" : "dbo"
+  }, {
+    "table" : "Salary Details",
+    "schema" : "dbo"
+  }, {
+    "table" : "Service",
+    "schema" : "dbo"
+  }, {
+    "table" : "TABLE13",
+    "schema" : "dbo"
+  }, {
+    "table" : "TABLE14",
+    "schema" : "dbo"
+  }, {
+    "table" : "TABLE16",
+    "schema" : "dbo"
+  }, {
+    "table" : "TABLE23",
+    "schema" : "dbo"
+  }, {
+    "table" : "TABLE347",
+    "schema" : "dbo"
+  }, {
+    "table" : "TABLE46",
+    "schema" : "dbo"
+  }, {
+    "table" : "TABLE47",
+    "schema" : "dbo"
+  }, {
+    "table" : "TABLE48",
+    "schema" : "dbo"
+  }, {
+    "table" : "TABLE49",
+    "schema" : "dbo"
+  }, {
+    "table" : "TABLE50",
+    "schema" : "dbo"
+  }, {
+    "table" : "TABLE60",
+    "schema" : "dbo"
+  }, {
+    "table" : "TABLE68",
+    "schema" : "dbo"
+  }, {
+    "table" : "TABLE70",
+    "schema" : "dbo"
+  }, {
+    "table" : "TABLE71",
+    "schema" : "dbo"
+  }, {
+    "table" : "_test",
+    "schema" : "dbo"
+  }, {
+    "table" : "test",
+    "schema" : "dbo"
+  }, {
+    "table" : "Unique Id Table",
+    "schema" : "dbo"
+  }, {
+    "table" : "User",
+    "schema" : "dbo"
+  }, {
+    "table" : "User Details",
+    "schema" : "dbo"
+  }, {
+    "table" : "Users",
+    "schema" : "dbo"
+  }, {
+    "table" : "Virtual Ona to Ona Child",
+    "schema" : "dbo"
+  }, {
+    "table" : "Virtual Ona to Ona Parent",
+    "schema" : "dbo"
+  }, {
+    "table" : "Virtual One to Many Child",
+    "schema" : "dbo"
+  }, {
+    "table" : "Virtual One to Many Parent",
+    "schema" : "dbo"
+  }, {
+    "table" : "Virtual One to One Child",
+    "schema" : "dbo"
+  }, {
+    "table" : "Virtual One to One Parent",
+    "schema" : "dbo"
+  }, {
+    "table" : "Virtual Table",
+    "schema" : "dbo"
+  }, {
+    "table" : "Virtual Table Test",
+    "schema" : "dbo"
+  }, {
+    "table" : ".testing",
+    "schema" : "dbo"
+  } ],
+  "schemaFilter" : [ "dbo" ],
+  "impersonateUser" : false,
+  "activeDirectoryDomain" : null,
+  "hbm2ddl" : "none",
+  "maxPageSize" : 100,
+  "minPoolSize" : 2,
+  "maxPoolSize" : 4,
+  "transactionTimeout" : 30,
+  "dataSourceType" : "WM_MANAGED_DATASOURCE",
+  "jndiName" : "",
+  "reloadInfo" : {
+    "reload" : false,
+    "reason" : null,
+    "message" : null
+  },
+  "readOnly" : false
+}

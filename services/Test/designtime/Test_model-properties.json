@@ -1,0 +1,7 @@
+{
+  "url" : "",
+  "packageName" : "com.basicsanity.test",
+  "serviceId" : "Test",
+  "defaultSchemaName" : "core",
+  "type" : "core"
+}
